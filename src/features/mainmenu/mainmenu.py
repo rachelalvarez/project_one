@@ -14,7 +14,7 @@ def availablecommands():
     command = {'1': 'Ping current host',
                '2': 'Run Netstat on current host',
                '3': 'Run ARP on current host',
-               '4': 'Run Tracert on current host',
+               '4': 'Run a trace route to a specific host',
                '5': 'Run Ipconfig on current host'}
 
     # properly formats dictionary into list so that it is shown nicely on the main menu
