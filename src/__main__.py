@@ -15,7 +15,7 @@ while True:
     if userinput == 'commands':
         mainmenu.availablecommands()
 
-    if userinput == "1":
+    if userinput == "1": # command: Ping current host
         from src.features.pinghost import *
         pinghost.ping()
         returnstatement()
