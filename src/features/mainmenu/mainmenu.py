@@ -12,7 +12,10 @@ def menu():
 def availablecommands():
     # list commands with their respective numbers in dictionary below
     command = {'1': 'Ping current host',
-               '2': 'Run Netstat on current host'}
+               '2': 'Run Netstat on current host',
+               '3': 'Run ARP on current host',
+               '4': 'Run Tracert on current host',
+               '5': 'Run Ipconfig on current host'}
 
     # properly formats dictionary into list so that it is shown nicely on the main menu
     list1 = []
