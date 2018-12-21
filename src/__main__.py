@@ -5,4 +5,4 @@ mainmenu.menu()
 userinput = input()
 
 if userinput == "1":
-    pinghost.pinghost()
+    pinghost.ping()
