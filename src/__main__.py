@@ -1,8 +1,21 @@
 from src.features.mainmenu import *
-from src.features.pinghost import *
 
 mainmenu.menu()
-userinput = input()
 
-if userinput == "1":
-    pinghost.ping()
+while True:
+    userinput = input().lower()
+
+    def returnstatement():
+        print("")
+        print("Would you like to select another? If not, type 'exit'. To list available commands, type 'commands'")
+
+    if userinput == 'exit':
+        break
+
+    if userinput == 'commands':
+        mainmenu.availablecommands()
+
+    if userinput == "1":
+        from src.features.pinghost import *
+        pinghost.ping()
+        returnstatement()
