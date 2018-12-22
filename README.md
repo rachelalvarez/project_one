@@ -41,7 +41,7 @@ To confirm you're in the virtualenv, \
 `python3 -m virtualenv env`
 
 5) Activate virtualenv. Direct to project directory. \
-`env/bin/activate` \
+`source venv/bin/activate` \
 To confirm virtualenv location \
 `which python`
 
@@ -54,3 +54,5 @@ To confirm virtualenv location \
 
 
 ##### Referenced from https://packaging.python.org/guides/installing-using-pip-and-virtualenv/
+
+##### Git help: https://confluence.atlassian.com/bitbucket/branching-a-repository-223217999.html
